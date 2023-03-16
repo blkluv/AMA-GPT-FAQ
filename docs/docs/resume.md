@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Resume improvement
+# Resume
 
 ### Step 1. Create a draft resume
 
