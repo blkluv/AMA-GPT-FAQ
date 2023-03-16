@@ -45,12 +45,12 @@ If you do not have a resume, you can use ChatGPT to create a draft based on a fe
 >   - Implemented features such as video upload, search, liking, commenting, and user authentication
 >   - Utilized concepts such as Object-Oriented Programming and MVC architecture for modular and scalable codebase.
 
-### Step 2. Use job description
+### Step 2. Improve resume use job description
 
 Tailor your resume to the job qualifications and job responsibilities of your target position
 
 **Example Prompts: **
-> This is the job qualifications and responsibilities I'm applying for
+> These is the job qualifications and responsibilities I'm applying for
 > 
 > Qualifications: 
 >   - Bachelor’s degree or equivalent practical experience.
@@ -85,7 +85,7 @@ Tailor your resume to the job qualifications and job responsibilities of your ta
 >   - Conducted software testing, debugging and resolved issues by analyzing source and root causes
 >   - Reviewed code of other team members and provided feedback to ensure code quality and maintain best practices
 
-### Step 3. Use numbers and metrics
+### Step 3. Improve resume use numbers and metrics
 
 Add numbers and metrics to make your resume more impressive, however, remember to modify the numbers according to the actual situation. 
 
