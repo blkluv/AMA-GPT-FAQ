@@ -109,7 +109,6 @@ Generally speaking, you need to find different kind of test cases yourself incul
 >                 for j in range(i + 1, n):
 >                     if nums[i] + nums[j] == target:
 >                         return [i, j]
->         return []
 
 **ChatGPT Answer:**
 
@@ -127,4 +126,45 @@ When dealing with complex problems, you need to ask some basic content first, su
 
 ## Code Review
 
+Let chatgpt to review your code in order to receive feedback
 
+**Example Prompts:**
+
+> Review my code to improve readability and efficiency step by step, your answer should return bullet point with index 
+>
+>     class Solution:
+>         def twoSum(self, nums: List[int], target: int) -> List[int]:
+>             # lst = []
+>             n = len(nums)
+>             # Two for loop for the nums
+>             for i in range(n):
+>                 for j in range(i+1, n):
+>                     if nums[i]+nums[j] == target:
+>                         # return i and j
+>                         return [i, j]
+>         return []
+
+**ChatGPT Answer:**
+> 1. Add comments to explain the purpose of the code block.
+> 2. Remove unused code, in this case the commented out lst = [] line.
+> 3. Rename variables with more descriptive names. In this case, n could be renamed to num_elements.
+> 4. Use the enumerate function to loop by index and value rather than just index.
+> 5. Use a dictionary to store the differences between the target and the current element in the loop, rather than comparing each element to every other element in the list. The dictionary will allow for constant time lookups, resulting in a more efficient algorithm.
+> 6. Return an empty list if no solution is found rather than returning nothing outside of the for loops.
+> Copy
+>
+>       class Solution:
+>           def twoSum(self, nums: List[int], target: int) -> List[int]:
+>               # Loop through list of numbers with an index and value
+>               num_elements = len(nums)
+>               differences = {}
+>               for index, num in enumerate(nums):
+>                   # Calculate difference
+>                   diff = target - num
+>                   # If difference already in dictionary, return indexes
+>                   if diff in differences:
+>                       return [differences[diff], index]
+>                   # Otherwise, add difference to dictionary
+>                   differences[num] = index
+>               # Return empty list if no solution found
+>               return []
