@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ARVRtise',
-  tagline: 'AMA Prompt Guide',
+  title: 'PromptIO',
+  tagline: 'ChatGPT Job Search Guide',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -58,7 +58,7 @@ const config = {
       navbar: {
         title: 'AMA Prompt Guides',
         logo: {
-          alt: 'PromptIO Logo',
+          alt: 'AMA Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -95,7 +95,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ARVRtise, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PromptIO, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ARVRtise',
-  tagline: 'AMA Prompt Guide',
+  title: 'PromptIO',
+  tagline: 'ChatGPT Job Search Guide',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://arvrtise.com',
+  url: 'https://promptio.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/docs',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AMA Prompt Docs', // Usually your GitHub org/user name.
-  projectName: 'AMA Prompt Guides', // Usually your repo name.
+  organizationName: 'promptio', // Usually your GitHub org/user name.
+  projectName: 'ChatGPT Job Search Guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,15 +56,15 @@ const config = {
     ({
       // Replace with your project's social card
       navbar: {
-        title: 'AMA Prompt Guides',
+        title: 'ChatGPT Job Search Guide',
         logo: {
           alt: 'PromptIO Logo',
           src: 'img/logo.png',
         },
         items: [
           {
-            href: 'https://ama.arvrtise.com',
-            label: 'AMA Bot',
+            href: 'https://github.com/facebook/docusaurus',
+            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -76,8 +76,8 @@ const config = {
             title: 'Attribute',
             items: [
               {
-                label: 'Made by Saahil Talha',
-                to: 'https://www.linkedin.com/in/saahil-talha/',
+                label: 'Chat bot icons created by karthiks_18 - Flaticon',
+                to: 'https://www.flaticon.com/free-icons/chat-bot',
               },
             ],
           },
@@ -86,16 +86,16 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/SFm7ddSCvn',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Official Website',
-                href: 'https://www.arvrtise.com',
+                label: 'GitHub',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ARVRtise, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PromptIO, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
